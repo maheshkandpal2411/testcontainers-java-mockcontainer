@@ -1,0 +1,30 @@
+[
+  {
+    "httpRequest": {
+      "method": "PUT",
+      "path": "/adjustment"
+    },
+    "httpResponse": {
+      "body": [
+        {
+          "id": "669819",
+          "supplierId": "1141",
+          "itemId": "41119381",
+          "transactionDate": "2022-02-02 17:05:29",
+          "lastActivityDate": "2022-02-02 17:08:54",
+          "quantity": 1,
+          "status": "AVAILABLE"
+        },
+        {
+          "id": "669820",
+          "supplierId": "1142",
+          "itemId": "41119382",
+          "transactionDate": "2022-02-02 17:05:30",
+          "lastActivityDate": "2022-02-02 17:08:57",
+          "quantity": 1,
+          "status": "AVAILABLE"
+        }
+      ]
+    }
+  }
+]

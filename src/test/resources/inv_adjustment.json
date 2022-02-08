@@ -1,0 +1,11 @@
+{
+   "transactionId": "66601419_421-17263324-000-002_43743_-2208963600000",
+   "itemId": "65690157",
+   "id": "43743",
+   "sku": "421-17263324-000-002",
+   "timestamp": "2022-02-07 09:59:22",
+   "quantityOnHandAdjustment": 1,
+   "reasonCode": "PARTNER RETURN",
+   "type": "RECEIPT_ONHOLD",
+   "rma": "367510332A"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/discovery/gateway-transaction-ws"
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "app_name": "gateway-transaction-ws",
+          "endpoint_url": "$ENDPOINT_URL",
+          "known": true,
+          "present": true,
+          "message": "",
+          "cache_time": "2022-02-02T15:38:13.970772",
+          "served_from": "discovery-service-bfff5b9b5-trmrf"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: "gw-txn-consumer"
+management:
+  endpoints:
+    web:
+      base-path: /
+  endpoint:
+    health:
+      show-details: always
+      show-components: always
+
+pulsar:
+  subscription-name: "transaction-sub"
+  topic-name: "persistent://public/default/transaction"
+  txnConsumerToken: "txnConsumerToken"
+
+discovery-service:
+  base-url: ${DISCOVERY_SERVICE_ADDR:https://localhost:1080}
+  read-timeout-milliseconds: 20000
+  connection-timeout-milliseconds: 20000
+---
+spring:
+  profiles: local
+
+pulsar:
+  service-url: pulsar://${DOCKER_MACHINE_IP:localhost}:6650
+  topic-name: "persistent://public/default/transaction"
